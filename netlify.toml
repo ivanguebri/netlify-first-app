@@ -3,4 +3,9 @@
   command = "yarn build:deploy"
   [context.deploy.environment]
     TEST_VAR = "test varcita"
+[context.dev]
+  publish = "dist/netlify-first-app"
+  command = "yarn build:deploy"
+  [context.deploy.environment]
+    TEST_VAR = "test but in dev"
 

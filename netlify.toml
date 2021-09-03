@@ -1,4 +1,6 @@
 [context.deploy]
   publish = "dist/netlify-first-app"
   command = "yarn build:deploy"
-  TEST_VAR = "test varcita"
+  [context.deploy.environment]
+    TEST_VAR = "test varcita"
+

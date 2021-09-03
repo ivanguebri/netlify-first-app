@@ -6,6 +6,6 @@
 [context.dev]
   publish = "dist/netlify-first-app"
   command = "yarn build:deploy"
-  [context.deploy.environment]
+  [context.dev.environment]
     TEST_VAR = "test but in dev"
 

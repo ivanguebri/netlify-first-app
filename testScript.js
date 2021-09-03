@@ -1,4 +1,4 @@
 require('dotenv').config();
 
-const testVar = process.env.TEST_VAR ?? 'TEST_VAR';
-console.log('TEST_VAR value:', testVar);
+const addedInInterface = process.env.ADDED_IN_INTERFACE ?? 'ADDED_IN_INTERFACE';
+console.log('ADDED_IN_INTERFACE value:', addedInInterface);
